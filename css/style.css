@@ -1,0 +1,43 @@
+CSS
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #111111;
+    color: #E8DFC8;
+    font-family: serif, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: #111111;
+}
+.button {
+    background-color: #C5A46D;
+    color: #111111;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button, a:hover {
+    color: #A88A5C;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    color: #C5A46D;
+    font-family: sans-serif, serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
