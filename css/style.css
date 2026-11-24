@@ -1,43 +1,114 @@
-CSS
-/* GENERAL SETTINGS */
-* {
+
+/* This is the main style of the website */
+
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #E8DFC8;
+    color: #111111;
 }
-html {
-    scroll-behavior: smooth;
-}
-body {
+
+/* Navigation Bar */
+
+nav {
     background-color: #111111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #C5A46D;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: #183A32;
     color: #E8DFC8;
-    font-family: serif, sans-serif;
+    text-align: center;
+    padding: 100px 20px;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 8%;
-    background-color: #111111;
+
+.hero h1 {
+    font-size: 40px;
+    color: #C5A46D;
 }
-.button {
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero a {
     background-color: #C5A46D;
     color: #111111;
-    padding: 10px 20px;
+    padding: 12px 20px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
-.button, a:hover {
-    color: #A88A5C;
+/* Featured Legends */
+
+.featured {
+    padding: 40px 20px;
+    text-align: center;
 }
 
-.logo {
-    display: flex;
-    flex-direction: column;
+.featured h2 {
+    color: #183A32;
+    margin-bottom: 30px;
+}
+
+.legend-container {
+    gap: 20px;
+}
+
+.legend-card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #C5A46D;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.legend-card h3 {
+    color: #183A32;
+}
+
+.legend-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* About Section */
+
+.about {
+    background-color: #183A32;
+    color: #E8DFC8;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.about h2 {
     color: #C5A46D;
-    font-family: sans-serif, serif;
-    font-weight: bold;
-    letter-spacing: 2px;
 }
+
+/* Footer */
+
+footer {
+    background-color: #111111;
+    color: #E8DFC8;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
