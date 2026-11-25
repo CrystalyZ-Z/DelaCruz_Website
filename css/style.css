@@ -1,5 +1,4 @@
 
-/* This is the main style of the website */
 
 body {
     margin: 0;
@@ -7,19 +6,23 @@ body {
     font-family: Arial, sans-serif;
     background-color: #E8DFC8;
     color: #111111;
+    
 }
 
+.navbar ul {
+    display: flex;
+    
+}   
 /* Navigation Bar */
-
 nav {
     background-color: #111111;
     padding: 20px;
-    text-align: center;
-}
+    text-align: right;
 
+}
 nav a {
     color: #C5A46D;
-    text-decoration: none;
+    text-decoration:none;
     margin: 15px;
     font-size: 16px;
 }
@@ -27,7 +30,6 @@ nav a {
 nav a:hover {
     color: white;
 }
-
 /* Hero Section */
 
 .hero {
@@ -92,6 +94,11 @@ nav a:hover {
 .legend-card p {
     font-size: 14px;
     line-height: 1.5;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
 }
 
 /* About Section */
