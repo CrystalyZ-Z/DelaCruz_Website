@@ -55,6 +55,8 @@ nav a:hover {
     border-radius: 5px;
 }
 
+
+
 /* Featured Legends */
 
 .featured {
@@ -68,6 +70,9 @@ nav a:hover {
 }
 
 .legend-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -112,3 +117,6 @@ footer {
     font-size: 14px;
 }
 
+{
+
+}
